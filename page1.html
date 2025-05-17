@@ -1,0 +1,274 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nurul Athirah | Linguistic and IT E-Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+      background-image: url(picture2.avif);
+      height: 100vh;
+      background-size: cover;
+      scroll-behavior: smooth;
+    }
+
+    .header {
+      background-image: url(picture3.webp); /* Ganti dengan gambar anda */
+      background-size: cover;
+      background-position: 50%; 
+      background-repeat: no-repeat;
+      height: 200px; /* Tinggikan supaya gambar nampak lebih jelas */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #9b3f7b;
+      text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
+      padding-top: 10px; /* kurangkan padding atas supaya tidak tutup gambar */
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: inherit;
+      font-style:italic;
+    }
+
+    .header h2{
+      margin-top: 20px;
+      font-size: 24px;
+      color: #4a2b3f;
+      font-weight: normal;
+      font-family:'Playfair Display', serif;
+    }
+
+    .typing {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid #4a2b3a;
+      animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink-caret {
+      50% { border-color: transparent; }
+    }
+
+    .nav {
+      background-color: #9b3f7b;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    .nav a {
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #772c4f;
+      transform: scale(1.1);
+    }
+
+    .main {
+      display: flex;
+      flex-direction: row;
+      padding: 20px;
+    }
+
+    .sidebar {
+      flex: 1;
+      max-width: 250px;
+      padding-right: 20px;
+    }
+
+    .sidebar img {
+      height: auto;
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #ccc;
+      transition: transform 0.3s ease;
+    }
+
+    .sidebar img:hover {
+      transform: scale(1.05);
+    }
+
+    .content {
+      flex: 3;
+      background-color: rgb(255, 192, 222);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h3, .content h4 {
+      margin-top: 20px;
+      color: #4a2b3f;
+    }
+
+    .section-box {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .section-box ul {
+      padding-left: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 15px;
+      background: #dbe5f1;
+      font-size: 12px;
+      color: #444444;
+    }
+
+    /* Scroll to Top Button */
+    #topBtn {
+      display: none;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 99;
+      font-size: 16px;
+      background-color: #9b3f7b;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    #topBtn:hover {
+      background-color: #772c4f;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Welcome to my page ✧˖°</h1>
+    <h2>Linguistics Meets Data | Curious Mind Navigating Language and Technology</h2>
+  </div>
+
+  <div class="nav">
+    <a href="#">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#experience">Experience</a>
+    <a href="#softskills">Soft Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="page2.html">More</a>
+  </div>
+
+  <div class="main">
+    <div class="sidebar">
+      <img src="profile pic 1.jpg" alt="Profile Picture">
+      <img src="picture3.jpg" alt="Gambar Tambahan 1">
+      <img src="picture6.jpg" alt="Gambar Tambahan 2">
+      <img src="picture7.jpg" alt="Gambar Tambahan 3">
+    </div>
+
+    <div class="content">
+      <h3>About Me ⋆. 𐙚 ˚</h3>
+      <p> 
+        Hi! I'm Nurul Athirah Binti Abdullah, currently pursuing a Bachelor's degree in Linguistics and Information Technology at Universiti Utara Malaysia (UUM).
+        My passion lies in the intersection of language and technology. Through my studies in linguistics, I’ve developed a strong understanding of how people communicate, interpret meaning, and engage with written and digital content. These skills are especially useful when designing user-centered digital solutions, ensuring that interfaces and messages are clear, accessible, and inclusive.
+      </p>
+
+      <p>
+        At the same time, my background in IT has equipped me with technical skills such as web development, data handling, and software tools. I enjoy applying these skills to solve real-world problems, especially those that enhance user experience and information accessibility.
+        By combining these two fields, I’m able to approach challenges from both a human and a technical perspective. I’m particularly interested in areas like Natural Language Processing (NLP), User Experience (UX) writing, and multilingual web design. These interests reflect my commitment to using language-aware technology to bridge communication gaps in our digital world.
+      </p>
+
+      <div class="section-box" id="education">
+        <h4>Education ⋆. 𐙚 ˚</h4>
+        <section id="Education">
+          <ul>
+            <li>High School at Sekolah Menengah Kebangsaan Kamunting, Taiping Perak (2015-2019)</li>
+            <li>Continue Form 6 in Sekolah Menengah Kebangsaan Kamunting, for 1 year and half</li>
+            <li>Bachelor of Linguistics and Information Technology, Universiti Utara Malaysia (2022-2025)</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="section-box" id="portfolio">
+        <h4>Portfolio ⋆. 𐙚 ˚</h4>
+        <ul>
+          <li><strong>Personal E-Portfolio Website:</strong> Created with HTML & CSS to present my academic journey and IT projects.</li>
+          <li><strong>Student Records Database:</strong> A MySQL project to handle and query academic data efficiently.</li>
+          <li><strong>Attendance System:</strong> A basic web app project using PHP and MySQL in a team setting.</li>
+        </ul>
+      </div>
+
+      <div class="section-box" id="softskills">
+        <h4>Soft Skills ⋆. 𐙚 ˚</h4>
+        <ul>
+          <li><strong>Communication:</strong> Able to convey ideas clearly in both written and spoken forms.</li>
+          <li><strong>Teamwork:</strong> Experienced in working collaboratively in academic and project teams.</li>
+          <li><strong>Time Management:</strong> Prioritize tasks effectively to meet academic and personal goals.</li>
+          <li><strong>Problem Solving:</strong> Enjoy finding creative and logical solutions in technical and language-related tasks.</li>
+          <li><strong>Adaptability:</strong> Open to learning new tools, languages, and approaches in a dynamic tech environment.</li>
+        </ul>
+      </div>
+
+      <div class="section-box" id="experience">
+        <h4>Experience ⋆. 𐙚 ˚</h4>
+        <ul>
+          <li><strong>Leadership Camp (2023):</strong> Participated in a 3-day leadership training program organized by UUM that focused on team building, problem-solving, and public speaking.</li>
+          <li><strong>Volunteer – Community IT Workshop (2023):</strong> Assisted in teaching basic computer skills to school students in rural areas.</li>
+          <li><strong>Student Representative Council – Program Committee Member (2022–2023):</strong> Involved in planning and organizing university-level events such as educational seminars and cultural nights.</li>
+          <li><strong>Leadership & Entrepreneurship Symposium (LEAPS) 2024:</strong> Attended national-level symposium on youth leadership and innovation strategies.</li>
+          <li><strong>Facilitator – School Motivation Camp:</strong> Guided secondary school students during motivational and study skill workshops.</li>
+        </ul>
+      </div>
+
+      <div class="section-box" id="contact">
+        <h4>Contact ⋆. 𐙚 ˚</h4>
+        <p><strong>Email:</strong> athirahae3@gmail.com</p>
+        <p><strong>Phone:</strong> 6011-11424735</p>
+        <p><strong>Instagram:</strong> @nrulathrh_</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nurulathirah" target="_blank">linkedin.com/in/nurulathirah</a></p>
+      </div>
+    </div>
+  </div>
+
+  <button onclick="topFunction()" id="topBtn" title="Go to top">↑ Top</button>
+
+  <div class="footer">
+    © 2025 Nurul Athirah | E-Portfolio Project
+  </div>
+
+  <script>
+    const topBtn = document.getElementById("topBtn");
+    window.onscroll = function() {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        topBtn.style.display = "block";
+      } else {
+        topBtn.style.display = "none";
+      }
+    };
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+</html>
